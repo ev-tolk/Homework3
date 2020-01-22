@@ -421,19 +421,33 @@ body{
 		width: 90%;
 	}
 	.container3 .ps1 .column{
-
+		column-width: 350px;
 	}
-
+	.container6 .clients div{
+		width: 18%;
+	}
 }
 
 @media (max-width:992px){
 	.container1 .menu{
 		display: none;
 	}
-	.container4 .galery div{
+	.container4 .galery .pic{
 		margin-bottom: 20px;
 		margin-left: 1%;
 		margin-right: 1%;
+	}
+	.container3 .ps1 .column{
+		column-width: 250px;
+		margin-left: 195px;
+		margin-right: 195px;
+	}
+	.container6 .clients div{
+		width: 17%;
+	}
+	.container6 .text4{
+		margin-left: 40px;
+		margin-right: 40px;
 	}
 }
 
@@ -441,8 +455,20 @@ body{
 	.container2 .cards div{
 		width: 45%;
 	}
-	.container4 .galery div{
+	.container4 .galery .pic{
 		width: 45%;
+	}
+	.container3 .ps1 .column{
+		column-width: 150px;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	.container6 .clients div{
+		width: 25%;
+	}
+	.container6 .text4{
+		margin-left: 70px;
+		margin-right: 70px;
 	}
 }
 
@@ -450,8 +476,27 @@ body{
 	.container2 .cards div{
 		width: 100%;
 	}
-	.container4 .galery div{
+	.container4 .galery .pic{
 		width: 98%;
+	}
+	.container3 .ps1 .column{
+		column-count: auto;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		column-gap: 0px;
+	}
+	.container3 .ps1 .text2{
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	.container6 .clients div{
+		width: 25%;
+	}
+	.container6 .text4{
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 }
 
@@ -464,5 +509,13 @@ body{
 	}
 	.container1 .btn{
 		margin-top: 10vh;
+	}
+}
+
+@media(max-width: 925px){
+	.container3 .ps1 .column{
+		column-width: 150px;
+		margin-left: 110px;
+		margin-right: 110px;
 	}
 }
