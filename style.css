@@ -302,6 +302,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	margin-top: 107px;
+	color: #ffffff;
 }
 
 .container4 .galery .pic .btnx .textx2{
@@ -309,6 +310,7 @@ body{
 	font-size: 12px;
 	margin-top: 17px;
 	margin-bottom: 25px;
+	color: #ffffff;
 }
 
 .container4 .galery .pic .btnx .btnx1 a{ 
@@ -360,15 +362,37 @@ body{
 
 .container6 .clients div{
 	display: inline-block;
-	width: 10%;
 	margin-top: 100px;
 }
+
+.container6 .clients .deorham{
+	width: 10%;
+}
+
+.container6 .clients .ratings{
+	width: 10%;
+	position: relative;
+	top: 15px;
+}
+
+.container6 .clients .malik{
+	width: 10%;
+}
+
+.container6 .clients .bcause{
+	width: 10%;
+}
+
+.container6 .clients .womgily{
+	width: 10%;
+	position: relative;
+	top: 15px;
+}
+
  .container6 .clients div img{
 	 max-width: 100%;
  }
-.container6 .clients .otst{
-	margin-top: 80px;
-}
+ 
 
 .container6 .text4{
 	font-style: italic;
@@ -396,6 +420,10 @@ body{
 	border: 2px solid #fcf4f3;
 	border-radius: 50%;
 	font-size: 12px;
+	padding-left: 9px;
+	padding-right: 10px;
+	padding-top: 9px;
+	padding-bottom: 10px ;
 }
 
 .container7 .twitter{
@@ -451,6 +479,15 @@ body{
 	}
 }
 
+
+@media(max-width: 925px){
+	.container3 .ps1 .column{
+		column-width: 150px;
+		margin-left: 110px;
+		margin-right: 110px;
+	}
+}
+
 @media (max-width: 768px){
 	.container2 .cards div{
 		width: 45%;
@@ -480,10 +517,10 @@ body{
 		width: 98%;
 	}
 	.container3 .ps1 .column{
-		column-count: auto;
+		column-count: 1;
 		margin-left: 0px;
-		margin-right: 0px;
-		padding-left: 0px;
+		margin-right: 5px;
+		padding-left: 5px;
 		padding-right: 0px;
 		column-gap: 0px;
 	}
@@ -512,10 +549,3 @@ body{
 	}
 }
 
-@media(max-width: 925px){
-	.container3 .ps1 .column{
-		column-width: 150px;
-		margin-left: 110px;
-		margin-right: 110px;
-	}
-}
